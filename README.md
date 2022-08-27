@@ -8,3 +8,7 @@ cd vercel-phpinfo
 
 vercel
 
+
+
+
+Demo: https://phpinfo.vercel.app/
