@@ -1,4 +1,5 @@
 # vercel-phpinfo
+
 Minimal PHP app with phpinfo() page.
 
 Ready to deploy in Vercel free tier cloud.
