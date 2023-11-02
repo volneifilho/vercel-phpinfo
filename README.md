@@ -1,17 +1,38 @@
-# vercel-phpinfo
+# Vercel PHP Info
 
-Minimal PHP app with phpinfo() page.
+Este repositório hospeda uma aplicação PHP mínima com uma página `phpinfo()`, pronta para ser implantada na camada gratuita da Vercel. A função principal desta aplicação é fornecer informações úteis sobre o ambiente Vercel para programadores PHP que utilizam esta plataforma. Além disso, serve como um exemplo simples e prático de como executar código PHP na Vercel, funcionando como uma espécie de boilerplate para projetos PHP.
 
-Ready to deploy in Vercel free tier cloud.
+![Demo](https://phpinfo.vercel.app/)
 
-Demo: https://phpinfo.vercel.app/
+## Demonstração
 
----------------------------------------------------------------------
+Uma demonstração ao vivo pode ser encontrada em: [https://phpinfo.vercel.app/](https://phpinfo.vercel.app/)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvolneifilho%2Fvercel-phpinfo)
+## Como Usar
 
-git clone https://github.com/volneifilho/vercel-phpinfo.git
+1. Clique no botão abaixo para clonar este repositório e implantá-lo na Vercel:
 
-cd vercel-phpinfo
+   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvolneifilho%2Fvercel-phpinfo)
 
-vercel
+2. Ou clone o repositório manualmente e implante-o com o CLI da Vercel:
+
+   ```bash
+   git clone https://github.com/volneifilho/vercel-phpinfo.git
+   cd vercel-phpinfo
+   vercel
+   ```
+## Estrutura do Projeto
+
+Este projeto consiste em dois arquivos principais:
+
+- `/api/phpinfo.php`: Este arquivo contém um script PHP simples que chama a função `phpinfo()`, gerando uma página com informações sobre a configuração do PHP no ambiente Vercel.
+- `vercel.json`: Este arquivo de configuração dirige o Vercel sobre como tratar as requisições e executar arquivos PHP neste projeto.
+
+## Contribuindo
+
+Sinta-se à vontade para clonar, modificar e reutilizar este projeto. Se você encontrar algum problema ou tiver alguma melhoria, sinta-se à vontade para abrir uma Issue ou um Pull Request.
+
+## Licença
+
+[MIT](LICENSE)
+
