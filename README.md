@@ -2,8 +2,6 @@
 
 Este repositório hospeda uma aplicação PHP mínima com uma página `phpinfo()`, pronta para ser implantada na camada gratuita da Vercel. A função principal desta aplicação é fornecer informações úteis sobre o ambiente Vercel para programadores PHP que utilizam esta plataforma. Além disso, serve como um exemplo simples e prático de como executar código PHP na Vercel, funcionando como uma espécie de boilerplate para projetos PHP.
 
-Demo: https://phpinfo.vercel.app/
-
 ## Demonstração
 
 Uma demonstração ao vivo pode ser encontrada em: [https://phpinfo.vercel.app/](https://phpinfo.vercel.app/)
