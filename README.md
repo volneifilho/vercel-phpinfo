@@ -1,36 +1,35 @@
 # Vercel PHP Info
 
-Este repositório hospeda uma aplicação PHP mínima com uma página `phpinfo()`, pronta para ser implantada na camada gratuita da Vercel. A função principal desta aplicação é fornecer informações úteis sobre o ambiente Vercel para programadores PHP que utilizam esta plataforma. Além disso, serve como um exemplo simples e prático de como executar código PHP na Vercel, funcionando como uma espécie de boilerplate para projetos PHP.
+This repository hosts a minimal PHP application with a `phpinfo()` page, ready to be deployed on Vercel's free tier. The main function of this application is to provide useful information about the Vercel environment for PHP programmers using this platform. Moreover, it serves as a simple and practical example of how to run PHP code on Vercel, functioning as a kind of boilerplate for PHP projects.
 
-## Demonstração
+## Demo
 
-Uma demonstração ao vivo pode ser encontrada em: [https://phpinfo.vercel.app/](https://phpinfo.vercel.app/)
+A live demo can be found at: [https://phpinfo.vercel.app/](https://phpinfo.vercel.app/)
 
-## Como Usar
+## How to Use
 
-1. Clique no botão abaixo para clonar este repositório e implantá-lo na Vercel:
+1. Click the button below to clone this repository and deploy it on Vercel:
 
    [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvolneifilho%2Fvercel-phpinfo)
 
-2. Ou clone o repositório manualmente e implante-o com o CLI da Vercel:
+2. Or clone the repository manually and deploy it with the Vercel CLI:
 
    ```bash
    git clone https://github.com/volneifilho/vercel-phpinfo.git
    cd vercel-phpinfo
    vercel
    ```
-## Estrutura do Projeto
+## Project Structure
 
-Este projeto consiste em dois arquivos principais:
+This project consists of two main files:
 
-- `/api/phpinfo.php`: Este arquivo contém um script PHP simples que chama a função `phpinfo()`, gerando uma página com informações sobre a configuração do PHP no ambiente Vercel.
-- `vercel.json`: Este arquivo de configuração dirige o Vercel sobre como tratar as requisições e executar arquivos PHP neste projeto.
+- `/api/phpinfo.php`: This file contains a simple PHP script that calls the `phpinfo()` function, generating a page with information about the PHP configuration in the Vercel environment.
+- `vercel.json`: This configuration file directs Vercel on how to handle requests and execute PHP files in this project.
 
-## Contribuindo
+## Contributing
 
-Sinta-se à vontade para clonar, modificar e reutilizar este projeto. Se você encontrar algum problema ou tiver alguma melhoria, sinta-se à vontade para abrir uma Issue ou um Pull Request.
+Feel free to clone, modify, and reuse this project. If you encounter any issues or have any improvements, feel free to open an Issue or a Pull Request.
 
-## Licença
+## License
 
 [MIT](LICENSE)
-
